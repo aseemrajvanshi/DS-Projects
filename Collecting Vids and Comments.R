@@ -1,4 +1,4 @@
-setwd("D:/SCIT/SEM-3/Social Media Analytics/YouTube")
+setwd("Path/YouTube")
 
 ##
 library(tuber)
@@ -9,7 +9,7 @@ library(wordcloud)
 library(gridExtra)
 
 ## Authenticate
-yt_oauth("441706213125-671sgnr0ufss5oh9otu6hd3tiha5r41m.apps.googleusercontent.com", "e9LC-a88VZQPLM7gp-ZIcfJf",token =" ")
+yt_oauth("app_id", "app_secret",token =" ")
 
 
 ## Get Stats
